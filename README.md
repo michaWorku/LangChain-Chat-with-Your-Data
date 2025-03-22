@@ -17,34 +17,34 @@ By the end of this course, you’ll be able to **build practical LLM-powered app
 - **Retrieval Augmented Generation (RAG):** LLMs retrieve relevant documents from external datasets to generate responses.  
 - **Use Cases:** Query documents like PDFs, websites, and databases.  
 
-### 2. [Document Loading]()  
+### 2. [Document Loading](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/01_document_loading.ipynb)  
 - **Loaders** – Tools for accessing and converting data into structured document objects.  
 - **Supported Sources:** PDFs, HTML, JSON, Word, PowerPoint, YouTube, arXiv, Notion, databases, etc.  
 
-### 3. [Document Splitting]() 
+### 3. [Document Splitting](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/02_document_splitting.ipynb) 
 - **Chunking** – Splitting large documents while maintaining context.  
 - **Splitting Methods:** Character, token, and **context-aware** (using document structure).  
 
-### 4. [Vector Stores & Embeddings]() 
+### 4. [Vector Stores & Embeddings](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/03_vectorstores_and_embeddings.ipynb) 
 - **Embeddings:** Capture document meaning as numerical vectors.  
 - **Vector Stores:** Store and retrieve embeddings for semantic search.  
 - **Workflow:** Load → Split → Embed → Store → Retrieve.  
 
-### 5. [Retrieval](#) 
+### 5. [Retrieval](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/04_retrieval.ipynb) 
 - **Semantic similarity search** – Find relevant documents using vector representations.  
 - **Advanced Techniques:**  
   - **Maximum Marginal Relevance (MMR):** Ensure diversity in retrieved results.  
   - **LLM-aided retrieval:** Enhance query understanding using AI.  
   - **Compression:** Fit more context by summarizing retrieved documents.  
 
-### 6. [Question Answering]()  
+### 6. [Question Answering](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/05_question_answering.ipynb)  
 - **RetrievalQA Chain:**  
   - Query the vector store.  
   - Retrieve relevant documents.  
   - Pass the documents to an LLM for response generation.  
 - **Methods:** Basic retrieval, map_reduce, refine, and **LangSmith** for evaluation.  
 
-### 7. [Chatbot Development]()  
+### 7. [Chatbot Development](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/06_chat.ipynb)  
 - **Conversational Retrieval Chain:** Combine retrieval with memory for multi-turn interactions.  
 - **Build Your Own Chatbot:**  
   - Load and split documents.  
@@ -53,12 +53,12 @@ By the end of this course, you’ll be able to **build practical LLM-powered app
   - Manage conversation history.  
 
 ## Notebooks  
-1. [Document Loading]()  
-2. [Document Splitting]()  
-3. [Vector Store & Embeddings]()  
-4. [Retrieval]()  
-5. [Question Answering]()  
-6. [Chatbot]()  
+1. [Document Loading](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/01_document_loading.ipynb)  
+2. [Document Splitting](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/02_document_splitting.ipynb)  
+3. [Vector Store & Embeddings](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/03_vectorstores_and_embeddings.ipynb)  
+4. [Retrieval](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/04_retrieval.ipynb)  
+5. [Question Answering](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/05_question_answering.ipynb)  
+6. [Chatbot](https://github.com/michaWorku/LangChain-Chat-with-Your-Data/blob/main/06_chat.ipynb)  
 
 ## Getting Started  
 1. Install required dependencies.  
